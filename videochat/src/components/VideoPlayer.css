@@ -1,0 +1,33 @@
+*{
+}
+.container{
+    border: 3px solid yellow;
+    display: flex;
+    flex-direction: row;
+   
+}
+.player{
+    width:"20rem";
+    height:"11rem";
+    border:"2px solid black";
+    margin:10rem;
+    
+}
+/* .vid{
+    width: "20rem";
+    height: "10rem";
+} */
+@media only screen and (max-width: 600px) {
+    .container{
+        border: 3px solid blue;
+        flex-direction: column;
+    }
+    .player{
+        width:"20rem";
+        height:"10rem";
+        border:"2px solid black";
+        margin:2rem;
+        
+    }
+}
+
